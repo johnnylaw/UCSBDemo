@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		664FA36A1CCEC7660077FFA5 /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664FA3691CCEC7660077FFA5 /* Professor.swift */; };
+		664FA36D1CCEC7BD0077FFA5 /* ProfsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664FA36C1CCEC7BD0077FFA5 /* ProfsService.swift */; };
 		66C97EBD1CCEC55900BC2A13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C97EBC1CCEC55900BC2A13 /* AppDelegate.swift */; };
 		66C97EBF1CCEC55900BC2A13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C97EBE1CCEC55900BC2A13 /* ViewController.swift */; };
 		66C97EC21CCEC55900BC2A13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C97EC01CCEC55900BC2A13 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		664FA3691CCEC7660077FFA5 /* Professor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Professor.swift; sourceTree = "<group>"; };
+		664FA36C1CCEC7BD0077FFA5 /* ProfsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfsService.swift; sourceTree = "<group>"; };
 		66C97EB91CCEC55900BC2A13 /* UCSB-TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCSB-TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C97EBC1CCEC55900BC2A13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66C97EBE1CCEC55900BC2A13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		664FA36B1CCEC7A60077FFA5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				664FA36C1CCEC7BD0077FFA5 /* ProfsService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		66C97EB01CCEC55900BC2A13 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 		66C97EBB1CCEC55900BC2A13 /* UCSB-TableView */ = {
 			isa = PBXGroup;
 			children = (
+				664FA36B1CCEC7A60077FFA5 /* Services */,
 				664FA3681CCEC7550077FFA5 /* Models */,
 				66C97EBC1CCEC55900BC2A13 /* AppDelegate.swift */,
 				66C97EBE1CCEC55900BC2A13 /* ViewController.swift */,
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664FA36D1CCEC7BD0077FFA5 /* ProfsService.swift in Sources */,
 				66C97EBF1CCEC55900BC2A13 /* ViewController.swift in Sources */,
 				664FA36A1CCEC7660077FFA5 /* Professor.swift in Sources */,
 				66C97EBD1CCEC55900BC2A13 /* AppDelegate.swift in Sources */,
